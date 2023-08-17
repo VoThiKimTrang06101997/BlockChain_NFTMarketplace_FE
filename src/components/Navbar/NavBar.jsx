@@ -114,9 +114,9 @@ const NavBar = () => {
             {notification && <Notification />}
           </div>
 
-          {/* Create Button Section */}
+          {/* CREATE BUTTON SECTION */}
           <div className={NavbarStyle.navbar_container_right_button}>
-            <Button btnText="Create" />
+            <Button btnName="Create" handleClick={() => {}} />
           </div>
 
           {/* User Profile */}
@@ -139,7 +139,7 @@ const NavBar = () => {
           <div className={NavbarStyle.navbar_container_right_menuBtn}>
             <CgMenuRight
               className={NavbarStyle.menuIcon}
-              onClick={openSideBar}
+              onClick={() => openSideBar()}
             />
           </div>
         </div>
