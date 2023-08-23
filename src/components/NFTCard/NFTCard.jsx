@@ -52,8 +52,10 @@ const NFTCard = () => {
 
             <div className={NFTCardStyle.NFTCard_box_update_right}>
               <div className={NFTCardStyle.NFTCard_box_update_right_info}>
-                <small className={NFTCardStyle.remainingTimeLabel}>Remaining time</small>
-                <p  className={NFTCardStyle.timeValue}>3h : 15m : 20s</p>
+                <small className={NFTCardStyle.remainingTimeLabel}>
+                  Remaining time
+                </small>
+                <p className={NFTCardStyle.timeValue}>3h : 15m : 20s</p>
               </div>
             </div>
           </div>
